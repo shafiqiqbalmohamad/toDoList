@@ -68,3 +68,14 @@ enterButton.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeypress);
 
+// save as pdf
+function generatePDF() {
+    const elementPdf = document.getElementById("list-row");
+
+    html2pdf()
+    .from (elementPdf)
+    .save();
+}
+
+
+

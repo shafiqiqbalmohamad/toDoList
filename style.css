@@ -30,7 +30,7 @@ p {
 
 #third {
   color: #f6ddcc;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #third-span {
@@ -38,8 +38,21 @@ p {
   font-weight: bold;
 }
 
+.pdf-button {
+  margin-bottom: 20px;
+  padding: 4px 10px;
+  background: #d6dbdf;
+  color: #181d31;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#userInput {
+  border: 1px solid #181d31;
+}
+
 #enter {
-  border: none;
+  border: 1px solid #181d31;
   padding: 5px 15px;
   border-radius: 5px;
   color: #04a1bf;
@@ -60,7 +73,7 @@ p {
 
 ul {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 45px;
 }
 
 li {
@@ -72,7 +85,7 @@ li {
   /* border: 2px solid #025f70; */
   border: 2px solid #e6ddc4;
   border-radius: 5px;
-  margin: 0px 100px 10px;
+  margin: 0px 100px 18px;
   /* background: #4eb9cd; */
   background: #e6ddc4;
   transition: all 0.75s ease;
